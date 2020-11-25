@@ -1,2 +1,3 @@
 a = ("sukhoi", "Tejas", "MiG-29", "Rafale", "F-15E")
-print(a[3:5])
+x = slice(3,5)
+print(a[x])
